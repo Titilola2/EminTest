@@ -42,27 +42,29 @@ const Header: React.FC = () => {
 
   return (
     <div className="flex flex-col w-screen  ">
- <div className="flex flex-col ">
-      <div className="flex items-center border-b border-gray-200 space-x-4 ml-8">
-        {tabs.map((tab) => (
-          <button
-            key={tab.label}
-            className={`px-3 pt-2 text-gray-400 hover:text-gray-900 w-30  mt-2 ${
-              activeTab === tab.label ? 'border-b-2 border-black font-bold text-gray-900' : ''
-            }`}
-            onClick={() => handleClick(tab.label)}
-          >
-            {tab.label}
-          </button>
-        ))}
-      </div>
-      <div className="p-4">
-        {tabs.find((tab) => tab.label === activeTab)?.content}
-      </div>
-    </div>
+ 
+  
+    <div className="top flex flex-col w-full">
+  <div className="flex items-center border-b border-gray-200 justify-around">
+    {tabs.map((tab) => (
+      <button
+        key={tab.label}
+        className={`px-3 pt-2 text-gray-400 hover:text-gray-900 mt-2 ${
+          activeTab === tab.label ? 'border-b-2 border-black font-bold text-gray-900' : ''
+        }`}
+        onClick={() => handleClick(tab.label)}
+      >
+        {tab.label}
+      </button>
+    ))}
+  </div>
+  <div className="p-4">
+    {tabs.find((tab) => tab.label === activeTab)?.content}
+  </div>
+</div>
 
 
-    <header className="  py-2 text-white -mt-4">
+    <header className=" bottom py-2 text-white -mt-4">
 
     <div className="flex flex-row justify-between items-center px-6 py-4  text-white h-16">
       <div className="flex  flex-row items-center space-x-4 w-1/2">

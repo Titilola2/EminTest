@@ -10,7 +10,7 @@ import Body from './components/body';
 function App() {
  
     return ( 
-      <div className="flex  flex-col items-center justify-center  py-4 ">
+      <div className="flex  flex-col items-center justify-center  py-4 w-screen ">
       <Navbar />
       <Header />
       <Body />
