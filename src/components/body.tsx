@@ -43,10 +43,10 @@ function Body() {
 
         <Table.Body className="divide-y">
           <Table.Row className="bg-white dark:border-gray-700 h-16 ">
-            <Table.Cell className="p-2 w-auto">
+            <Table.Cell className="p-4">
               <Checkbox />
             </Table.Cell>
-            <div className="flex flex-row w-1/5">
+            <div className="flex flex-row">
             <div className="w-10 h-10 mt-4 rounded-lg border border-stone-200  flex">
               <a href="Message" className=" items-center "></a>
             <img className="w-screen " src={mamoh} />
@@ -57,7 +57,7 @@ function Body() {
             </Table.Cell> 
             </div>
             
-            <Table.Cell className= " text-white px-4 w-w/5">
+            <Table.Cell className= " text-white px-12">
             <button className="px-2 py-2 bg-blue-900 text-white rounded-md flex flex-row gap-2 ">
               <div className="text-[10px]">
             View on Google Maps
@@ -68,8 +68,7 @@ function Body() {
             <Table.Cell className= " text-blue-900 px-20">3936</Table.Cell>
             <Table.Cell className= " text-blue-900 px-20">
               <button className="px-4 py-2 bg-green-100 text-green-900 rounded-full">Active
-                </button>
-                </Table.Cell>
+                </button></Table.Cell>
             <Table.Cell>
               <div className=" px-20  ">
                  <BsThreeDotsVertical />
