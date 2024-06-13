@@ -18,9 +18,12 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
+    "typeRoots": ["node_modules/@types", "node_modules/@material-tailwind"],
     "jsx": "react-jsx"
   },
   "include": [
     "src"
   ]
 }
+
+
