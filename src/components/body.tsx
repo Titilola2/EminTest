@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import { Checkbox, Table } from "flowbite-react";
 import bell from '../assets/bell.svg';
@@ -57,7 +55,7 @@ function Body() {
             </Table.Cell> 
             </div>
             
-            <Table.Cell className= " text-white px-12">
+            <Table.Cell className= " text-white px-4">
             <button className="px-2 py-2 bg-blue-900 text-white rounded-md flex flex-row gap-2 ">
               <div className="text-[10px]">
             View on Google Maps
@@ -90,7 +88,7 @@ function Body() {
               <p className="text-cyan-400 text-xs"> {'company owner'}</p>
             </Table.Cell>
             </div>
-            <Table.Cell className= " text-blue-900 px-12"> 
+            <Table.Cell className= " text-blue-900 px-4"> 
             <button className="px-2 py-2 bg-blue-900 text-white rounded-md flex flex-row gap-2 ">
               <div className="text-[10px]">
             View on Google Maps
@@ -121,7 +119,7 @@ function Body() {
             <p className="text-cyan-400 text-xs"> {'manager'}</p>
             </Table.Cell>
             </div>
-            <Table.Cell className= " text-blue-900 px-12"> 
+            <Table.Cell className= " text-blue-900 px-4"> 
             <button className="px-2 py-2 bg-blue-900 text-white rounded-md flex flex-row gap-2 ">
               <div className="text-[10px]">
             View on Google Maps
@@ -152,7 +150,7 @@ function Body() {
             <p className="text-cyan-400 text-xs"> {'super admin'}</p>
             </Table.Cell>
             </div>
-            <Table.Cell className= " text-blue-900 px-12">  
+            <Table.Cell className= " text-blue-900 px-4">  
             <button className="px-2 py-2 bg-blue-900 text-white rounded-md flex flex-row gap-2 ">
               <div className="text-[10px]">
             View on Google Maps
@@ -190,8 +188,3 @@ function Body() {
 }
 
 export default Body;
-
-
-
-
-
